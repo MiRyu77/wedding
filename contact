@@ -1,8 +1,58 @@
 Contact Data
-Miriam
-Stefan
-Anja
 
+
+
+<section class="section header-section" id="organizers-eb853f65-f417-4970-8736-d93705fe4377">
+    <div class="container">
+        <div class="headline-font-wrapper">
+            <h2>Organisation</h2>
+        </div>
+            </div>
+</section>
+
+
+<section class="section organizers-section">
+            <div class="container">
+                                                        <ul class="organizers even">
+                    <li class="organizer">
+                                <p class="name">Stefan Götz</p>
+                <p class="function">Trauzeuge</p>
+                <p class="contact">
+                                            <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:email-addy">email-addy</a><br />
+                                                                <i class="fas fa-phone" aria-hidden="true"></i> TEL NR<br />
+                                    </p>
+                <p class="description">
+                    
+                </p>
+            </li>
+                    <li class="organizer">
+                                <p class="name">Miriam Keller</p>
+                <p class="function">Trauzeugin</p>
+                <p class="contact">
+                                            <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:email-addy">email-addy</a><br />
+                                                                <i class="fas fa-phone" aria-hidden="true"></i> TEL NR<br />
+                                    </p>
+                <p class="description">
+                    
+                </p>
+            </li>
+            <li class="organizer">
+                                <p class="name">Anja Ferner-Michel</p>
+                <p class="function">Tätschmeisterin</p>
+                <p class="contact">
+                                            <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:email-addy">email-addy</a><br />
+                                                                <i class="fas fa-phone" aria-hidden="true"></i> TEL NR<br />
+                                    </p>
+                <p class="description">
+                    
+                </p>
+            </li>
+            
+            
+            </ul>
+        </div>
+    </section>
+    
 <div class="headline-font-wrapper">
             <h2>Kontakt</h2>
         </div>
