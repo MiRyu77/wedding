@@ -1,1 +1,100 @@
 
+ Locations & Times
+                    </div>
+                    <div class="location-details">
+                        <div class="details-item">
+                            <div class="item-title">
+                                <label class="pst_label">Ceremony</label>
+                            </div>
+                            <div class="details-field">
+                                <input type="text" id="txtLocationCeremonyName" class="pst_inputtext" placeholder="Name of the Venue" value="" />
+
+                            </div>
+                            <div class="details-field">
+                                <input type="text" id="txtLocationCeremonyAddress" class="pst_inputtext" data-location-name="Ceremony" value=""
+                                    data-location-pos="" data-location-placeid=""
+                                    data-location="#txtLocationCeremonyName" placeholder="Location of the Venue" />
+
+                            </div>
+                            <div class="details-field short">
+                                <input type="text" id="txtLocationCeremonyDate" class="pst_inputtext widget-date" value="" />
+                                <input type="text" id="txtLocationCeremonyDateStart" data-timepair="#txtLocationCeremonyDateEnd" class="pst_inputtext widget-time"
+                                    value="" />
+                                <span>to</span>
+                                <input type="text" id="txtLocationCeremonyDateEnd" class="pst_inputtext widget-time" 
+                                    value="" />
+                            </div>
+                        </div>
+                        <div class="details-item">
+                            <div class="item-title">
+                                <label class="pst_label">Reception</label>
+                                <div class="pst_checkbox">
+                                    <input id="chkLocationReception" type="checkbox" value="sameasceremony"/>                            
+                                    <label for="chkLocationReception">Same location as ceremony</label>
+                                </div>
+                            </div>
+                            <div class="details-field field-todisable">
+                                <input type="text" id="txtLocationReceptionName" class="pst_inputtext" placeholder="Name of the Venue" value="" />
+
+                            </div>
+                            <div class="details-field field-todisable">
+                                <input type="text" id="txtLocationReceptionAddress" class="pst_inputtext" data-location-name="Reception" value=""
+                                    data-location-pos="" data-location-placeid=""
+                                    data-location="#txtLocationReceptionName" placeholder="Location of the Venue" />
+                            </div>
+                            <div class="details-field short">
+                                <input type="text" id="txtLocationReceptionDate" class="pst_inputtext widget-date" value="" />
+                                <input type="text" id="txtLocationReceptionDateStart" data-timepair="#txtLocationReceptionDateEnd" class="pst_inputtext widget-time" 
+                                    value="" />
+                                <span>to</span>
+                                <input type="text" id="txtLocationReceptionDateEnd" class="pst_inputtext  widget-time" 
+                                    value="" />
+                            </div>
+                        </div>
+                        <div class="details-item">
+                            <div class="item-title">
+                                <label class="pst_label">Attire</label>
+                            </div>
+                            <div class="details-field">
+                                <input type="text" id="txtAttire" class="pst_inputtext" placeholder="Enter Attire Requirements" value="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location-map">
+                        <div id="plhLocationMap"></div>
+                    </div>
+                </div>
+                <div class="box-accommodation">
+                    <div class="accommodation-title">
+                        Accommodations
+                    <a class="title-action pst_link white" data-action="accadd">+</a>
+                    </div>
+                    <div class="accommodation-details">
+                        
+                        <div class="details-item" data-idx="1">
+                            <div class="item-title">
+                                Accommodation 1
+                            </div>
+                            <div class="details-block">
+                                <div class="details-field">
+                                    <input type="text" id="txtAccommodationName_1" class="pst_inputtext" placeholder="Name of the Venue" value="" />
+
+                                </div>
+                                <div class="details-field">
+                                    <input type="text" id="txtAccommodationAddress_1" class="pst_inputtext" data-location="#txtAccommodationName_1" value=""
+                                        data-location-phone="#txtAccommodationPhone_1" data-location-website="#txtAccommodationWebsite_1" placeholder="Location of the Venue" />
+
+                                </div>
+                            </div>
+                            <div class="details-block">
+                                <div class="details-field ">
+                                    <input type="text" id="txtAccommodationPhone_1" class="pst_inputtext " placeholder="Phone Number" value="" />
+                                </div>
+                                <div class="details-field ">
+                                    <input type="text" id="txtAccommodationWebsite_1" class="pst_inputtext " placeholder="Website" value="" />
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="details-item" data-idx="2">
+                            <div class="item-title">
