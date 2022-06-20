@@ -88,6 +88,49 @@
                             </div>
                             <div class="details-block">
                                 <div class="details-field ">
+                          ------------------------------------------------------------      
+                              <section class="section locations">
+            <div class="container">
+                                                        <ul class="location-list">
+                    <li class="location">
+                                    <a class="location-map" target="_blank" href="https://www.google.ch/maps/place/Trotte+Villigen/@47.5279865,8.2137084,15z/data=!4m2!3m1!1s0x0:0xa717f775981df191?sa=X&ved=2ahUKEwjQ0YGC4rv4AhWHM-wKHfSmCoQQ_BJ6BAhQEAU
+                            ">
+                        
+
+    <svg width="200" viewbox="0 0 100 100" version="1.1" xmlns="image link">
+        <defs>
+            <pattern id="img-accommodation-54a293fa-0ace-4ae4-9a36-95c30db89f36" height="100%" width="100%" patternUnits="userSpaceOnUse">
+                <image xlink: image link" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+            </pattern>
+        </defs>
+        <polygon fill="url(#img-accommodation-54a293fa-0ace-4ae4-9a36-95c30db89f36)" points="50 1 95 25 95 75 50 99 5 75 5 25"/>
+        <polygon class="overlay" points="50 1 95 25 95 75 50 99 5 75 5 25" fill-opacity="0 "/>
+    </svg>
+                    </a>
+                                <div class="location-details">
+                    <h3 class="headline">
+                       Hotel Hirschen Viligen
+                    </h3>
+                    <p class="description">
+                        
+                    </p>
+                                            <p class="url">
+                            <strong>Adresse:</strong>
+                            <a href="https://www.google.ch/maps/place/Restaurant+%26+Hotel+Hirschen/@47.526108,8.2129983" target="_blank">HAUPTSTRASSE 42, 
+5234 VILLIGEN</a>
+                        </p>
+                                                                                                        <p class="url">
+                            <strong>Website:</strong>
+                            <a href="https://hirschen-villigen.ch/" target="_blank">
+                                hirschen-villigen.ch/
+                            </a>
+                        </p>
+                                    </div>
+            </li>
+                   
+            </ul>
+        </div>
+    </section>
                                     <input type="text" id="txtAccommodationPhone_1" class="pst_inputtext " placeholder="Phone Number" value="" />
                                 </div>
                                 <div class="details-field ">
