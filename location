@@ -142,6 +142,45 @@
                         <div class="details-item" data-idx="2">
                             <div class="item-title">
 
+<section class="section header-section" id="locations-c4eee688-62ec-4b18-96c2-5ebecbae765d">
+    <div class="container">
+        <div class="headline-font-wrapper">
+            <h2>Locations</h2>
+        </div>
+                    <p class="subheading">
+                Hier findet ihr Details zu den einzelnen Locations sowie Anreise-Informationen.
+            </p>
+            </div>
+</section>
+
+                                <div class="location-details">
+                    <h3 class="headline">
+                        Apéro und Fest
+                    </h3>
+                    <p class="subline">
+                        Trotte Villigen, 09. September 2022 ab 14:30                                            </p>
+                    <p class="description">
+                        <b>Weg zur Trotte Villigen:</b><br />
+<br />
+<b>mit dem ÖV: </b>TEXT HOW TO REACH<br />
+<br />
+<b>mit dem Auto: </b>TEXT TO SPOTS AND MAP<img loading="lazy" src="https://cdn.weddybird.com/uploads/2022-05/37082696-971e-485e-8346-dbbf2a12b198/4ab74576-c00c-432e-a79e-1289106c24aa.jpg" width="993" height="577" />
+                    </p>
+                                            <p class="url">
+                            <strong>Adresse:</strong>
+                           <a href="https://www.google.ch/maps/place/Restaurant+%26+Hotel+Hirschen/@47.526108,8.2129983" target="_blank">HAUPTSTRASSE 42, 
+5234 VILLIGEN</a>                                   <p class="url">
+                            <strong>Website:</strong>
+                            <a href="https://hirschen-villigen.ch/" target="_blank">
+                                hirschen-villigen.ch/
+                            </a>
+                        </p>
+                                    </div>
+            </li>
+            </ul>
+        </div>
+    </section>
+---------------------------
 https://www.trotte-villigen.ch/
 
 https://www.google.ch/maps/place/Trotte+Villigen/@47.5279865,8.2137084,15z/data=!4m2!3m1!1s0x0:0xa717f775981df191?sa=X&ved=2ahUKEwjQ0YGC4rv4AhWHM-wKHfSmCoQQ_BJ6BAhQEAU
