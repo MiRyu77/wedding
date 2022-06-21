@@ -1,0 +1,22 @@
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted List
+1. Numbered List
+
+**Bold** 
+_Italic_ 
+`Code` text
+
+[Link](url) 
+![Image](src)
+
+<p>Paragraph</p>
+<button formtarget="_blank">clickable button text</button>
+<a href="URL" target="_blank" (opens in separate window)>anchor element like a hyperlink</a>
+<a>stands for any anchor element</a>
+- the main is called an element
+if you specify it is called attribute of the element
+
+------------------------------
