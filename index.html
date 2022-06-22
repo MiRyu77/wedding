@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <meta charset="utf-8">
@@ -6,66 +7,6 @@
         Wir  haben geheiratet und möchten mit Euch feiern!
     </title>
 </head>
-
-    
-    
-<body>
-    <h1>heading 1</h1>
-    <p>Paragraph 1</p>
-    
-        <nav>
-            <a class="navigation-link " href="#ceremony">Fest</a>
-            <a class="navigation-link " href="#pics">Fotos</a>
-            <a class="navigation-link " href="#location">Location</a>
-            <a class="navigation-link " href="#registry">Geschenke</a>
-            <a class="navigation-link " href="#contact">Kontakt</a>
-        </nav>
-        <section>
-            
-           
-        </section>
-    
- 
-    <style>
-        <body>
-        {
-            background-image: url("IMG_0708 compressed.JPG");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-       }
-            {background-color: beige}
-        h1 {
-            color: black;
-            font-style: "font-size:10vw"}
-        h2 {
-            color: black; font-style: "font-size:5vw"}
-        p {color: black; font-style: "font-size:5vw"}
-        <!-- alternatively you can link to a style sheet: <link rel="stylesheet" href="styles.css"> if in same folder as current page
-               The following gives you 20% sizes left and right, with 60% center space: 
-        .left, .right {
-              float: left;
-              width: 20%; /* The width is 20%, by default */
-            }
-
-            .main {
-              float: left;
-              width: 60%; /* The width is 60%, by default */
-            }
-
-            /* Use a media query to add a breakpoint at 800px: */
-            @media screen and (max-width: 800px) {
-              .left, .main, .right {
-                width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-              }
-            }
-        -->
-   </style> 
-</body>
-
-<font style="times new roman" font size="14" font color="000000">
-        Insert Text here.
-    </font>
 
 <header class="page-header" id="page-header">
     <!-- <section class="page-image-header" id="page-image-header">
@@ -91,29 +32,241 @@
         </section> -->
 </header>
 
+<body>
+    <h1>heading 1</h1>
+    <p>Paragraph 1</p>
 
-    <section class="invitation">
-        <div class="container">
-            <div class="times new roman">
-                <p>
-                    <b>Liebe Gäste</b><br>
-                    <br>
-                      Wir freuen uns schon riesig, unser Hochzeitsfest mit Euch allen am <strong>09. September 2022</strong> zu begehen.<br>
-                        <br>
-                        Dresscode: Festlich wie Ihr euch wohl fühlt. <br>
-                        <br>
-                        Falls ihr einen Programmpunkt plant bzw. etwas zum Fest beitragen mögt, lasst dies doch bitte unsere Tätschmeisterin wissen.<br>
-                        Für alle anderen Fragen könnt ihr euch gerne bei unseren Trauzeugen melden.<br>
-                        <br>
-                     Herzliche Grüsse,<br>
-                    <br>
-                    <i>Regina und Michael</i>
-                </p>
-            </div>
+    <nav>
+        <!-- make bigger, link to section on same page except registry in new window . maybe use section instead -->
+        <button>Home</button>
+        <button>Fest</button>
+        <button>pics</button>
+        <button>Location</button>
+        <button>registry</button>
+        <button>contact</button>
+    </nav>
+    <br />
+    <section>
+        <a class="navigation-link " href="#invitation">Einladung</a>
+        <a class="navigation-link " href="#ceremony">Fest</a>
+        <a class="navigation-link " href="#location">Location</a>
+        <a class="navigation-link " href="#pics">Fotos</a>
+        <a class="navigation-link " href="#registry">Geschenke</a>
+        <a class="navigation-link " href="#contact">Kontakt</a>
+    </section>
+    <font style="times new roman" font size="14" font color="000000">
+        Insert Text here.
+    </font>
+
+    <style>
+        <body > {
+            background-image: url("IMG_0708 compressed.JPG");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        {
+            background-color: beige
+        }
+
+        h1 {
+            color: black;
+            font-style: "font-size:10vw"
+        }
+
+        h2 {
+            color: black;
+            font-style: "font-size:5vw"
+        }
+
+        p {
+            color: black;
+            font-style: "font-size:5vw"
+        }
+
+        <!-- alternatively you can link to a style sheet: <link rel="stylesheet" href="styles.css" > if in same folder as current page
+        The following gives you 20% sizes left and right, with 60% center space:
+        .left, .right {
+            float: left;
+            width: 20%; /* The width is 20%, by default */
+        }
+
+        .main {
+            float: left;
+            width: 60%; /* The width is 60%, by default */
+        }
+
+        /* Use a media query to add a breakpoint at 800px: */
+        @media screen and (max-width: 800px) {
+            .left, .main, .right {
+                width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+            }
+        }
+        -->
+    </style>
+</body>
+
+<section class="invitation">
+    <div class="container">
+        <div class="times new roman">
+            <p>
+                <b>Liebe Gäste</b><br>
+                <br>
+                Wir freuen uns schon riesig, unser Hochzeitsfest mit Euch allen am <strong>09. September 2022</strong> zu begehen.<br>
+                <br>
+                Dresscode: Festlich wie Ihr euch wohl fühlt. <br>
+                <br>
+                Falls ihr einen Programmpunkt plant bzw. etwas beitragen mögt, lasst dies doch bitte unsere <a href="#contact">Tätschmeisterin</a> wissen.<br>
+                Für Fragen könnt ihr euch gerne bei unseren <a href="#contact">Trauzeugen</a> melden.<br>
+                <br>
+                Herzliche Grüsse,<br>
+                <br>
+                <i>Regina und Michael</i>
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="section ceremony" id="#ceremony">
+    <div class="container">
+        <h2>Fest Ablauf</h2>
+        <br>
+    </div>
+</section>
+
+<section class="section location" id="#location">
+    <div class="container">
+        <h2>Location</h2>
+        <br>
+        <p>
+            Apéro und Fest<br>
+            <br>
+            Trotte Villigen, 09. September 2022 ab 14:30<br>
+        </p>
+        <div class="location-details">
+            <p class="description">
+                <strong>Weg zur Trotte Villigen:</strong><br />
+                <br />
+                <b>mit dem ÖV: </b>Ab Brugg Bahnhof mit Buslinie 376 nach Villigen PSI / Döttingen bis zur Haltestelle "Villigen, Gemeindehaus". Danach noch wenige Minuten zu Fuss.<br />
+                <br />
+                Es gibt einen Taxiservice nach Brugg, (Kosten) - Phone Nr. xx damit auch Leute ohne Auto wieder bis nach Brugg und von dort nach Hause kommen. <br />
+                <br />
+                <b>mit dem Auto: </b>
+                Von Aarau über Land: R5 entlang Brugg. Abzweigung nach Villigen, nach ca. 3km Abbiegen in "Winkel", es sind genügend kostenlose Parkplätze vorhanden. <br />
+                Von der A1 her: Ausfahrt 54 Baden-West, danach auf der Badenerstrasse in nördlicher Richtung Brugg. Entlang an Birmenstorf, Gebenstorf und in Vogelsang über die Aare.  <br />
+                Ab der Stili-Brücke noch ca. 2.5km bis zur Trotte in Villigen (signalisiert). <br />
+                     </p>
+
+            <p class="url">
+                <strong>Adresse:</strong>
+                <a href="https://www.google.ch/maps/place/Trotte+Villigen/@47.5279865,8.2137084,15z/data=!4m2!3m1!1s0x0:0xa717f775981df191?sa=X&ved=2ahUKEwjQ0YGC4rv4AhWHM-wKHfSmCoQQ_BJ6BAhQEAU" target="_blank">
+                    Winkel 12, <br />
+                    5234 Villigen
+                </a>
+            <p class="url">
+                <strong>Website:</strong>
+                <a href="https://www.trotte-villigen.ch/" target="_blank">
+                    trotte-villigen.ch
+                </a>
+            </p>
+
+         <h2>Unterkünfte</h2>
+            <p class="url">
+                <strong>Adresse:</strong>
+                <a href="https://www.google.ch/maps/place/Restaurant+%26+Hotel+Hirschen/@47.526108,8.2129983" target="_blank">
+                    HAUPTSTRASSE 42,
+                    5234 VILLIGEN
+                </a>
+            <p class="url">
+                <strong>Website:</strong>
+                <a href="https://hirschen-villigen.ch/" target="_blank">
+                    hirschen-villigen.ch/
+                </a>
+                <br />
+                There are other smaller Bed and Breakfasts in vincinity.
+            </p>
+        </div>
+        </li>
+        </ul>
+    </div>
+</section>
+
+<section class="section pics" id="#pics" target="_blank">
+    <div class="container">
+        <h2>Fotos</h2>
+        <br>
+        Schickt eure Bilder oder Links zu euren gehosteten Bildern doch bitte an unsere Tätschmeisterin. <br>
+        Wir werden diese sammeln um ein Ende einen einzelnen Link zu den Bilder zur Verfügung zu stellen. <br>
+    </div>
+</section>
+
+<section class="section registry" id="#registry" target="_blank">
+    <div class="container">
+        <h2>Geschenke</h2>
+        <p>
+            <br>
+            Wir freuens uns riesig, mit Euch allen ein gemütliches Fest zu feiern, welches in guter Erinnerung bleibt. <br />
+            <br />
+            Anbei findet Ihr unsere "Wunschliste", mehrheitlich dazu da, dass Ihr ganz nach Eurem Belieben zusätzlich einen "physischen Teil" des Festes werdet. <br />
+            Besonders würden wir uns über Apero- und selbstgemachte Dessertkreationen freuen. <br />
+            Für andere materialle Güter werdet ihr zum Götti - und wenn ihr nicht wisst, was geben sind wir auch über "Barspenden" froh, welche an unsere Flitterwochen gehen. <br />
+            <br />
+        </p>
+        <!---
+                    <gift-table :gift-wishes="[{&quot;id&quot;:15064,&quot;headline&quot;:&quot;Messerhalter aus Holz&quot;,&quot;info&quot;:null,&quot;giftType&quot;:&quot;non_money&quot;,&quot;availableShares&quot;:1,&quot;sharesGivenAway&quot;:0,&quot;pricePerShare&quot;:100,&quot;giftedCount&quot;:0,&quot;hideSharesGivenAway&quot;:false,&quot;maxAmount&quot;:null,&quot;giftedAmount&quot;:null},{&quot;id&quot;:15067,&quot;headline&quot;:&quot;Hotel\u00fcbernachtung&quot;,&quot;info&quot;:&quot;Gutschein f\u00fcr eine Hotel\u00fcbernachtung in der Schweiz f\u00fcr uns zu zweit.&quot;,&quot;giftType&quot;:&quot;non_money&quot;,&quot;availableShares&quot;:3,&quot;sharesGivenAway&quot;:1,&quot;pricePerShare&quot;:150,&quot;giftedCount&quot;:1,&quot;hideSharesGivenAway&quot;:false,&quot;maxAmount&quot;:null,&quot;giftedAmount&quot;:null},{&quot;id&quot;:15068,&quot;headline&quot;:&quot;Ausflug&quot;,&quot;info&quot;:&quot;Gutschein f\u00fcr einen Ausflug mit euch zusammen&quot;,&quot;giftType&quot;:&quot;non_money&quot;,&quot;availableShares&quot;:3,&quot;sharesGivenAway&quot;:1,&quot;pricePerShare&quot;:150,&quot;giftedCount&quot;:1,&quot;hideSharesGivenAway&quot;:false,&quot;maxAmount&quot;:null,&quot;giftedAmount&quot;:null},{&quot;id&quot;:15019,&quot;headline&quot;:&quot;Ein Fass Bier an der Hochzeit&quot;,&quot;info&quot;:&quot;Hiermit geht ein 20-Liter-Bierfass auf euch!&quot;,&quot;giftType&quot;:&quot;shares&quot;,&quot;availableShares&quot;:5,&quot;sharesGivenAway&quot;:2,&quot;pricePerShare&quot;:120,&quot;giftedCount&quot;:1,&quot;hideSharesGivenAway&quot;:false,&quot;maxAmount&quot;:null,&quot;giftedAmount&quot;:null},{&quot;id&quot;:15063,&quot;headline&quot;:&quot;Geld f\u00fcr einen grossen Rollkoffer&quot;,&quot;info&quot;:null,&quot;giftType&quot;:&quot;shares&quot;,&quot;availableShares&quot;:1,&quot;sharesGivenAway&quot;:0,&quot;pricePerShare&quot;:200,&quot;giftedCount&quot;:0,&quot;hideSharesGivenAway&quot;:false,&quot;maxAmount&quot;:null,&quot;giftedAmount&quot;:null},{&quot;id&quot;:15065,&quot;headline&quot;:&quot;Eine Flasche guten Gin&quot;,&quot;info&quot;:null,&quot;giftType&quot;:&quot;non_money&quot;,&quot;availableShares&quot;:2,&quot;sharesGivenAway&quot;:0,&quot;pricePerShare&quot;:50,&quot;giftedCount&quot;:0,&quot;hideSharesGivenAway&quot;:false,&quot;maxAmount&quot;:null,&quot;giftedAmount&quot;:null},{&quot;id&quot;:15066,&quot;headline&quot;:&quot;Eine Flasche guten Whiskey&quot;,&quot;info&quot;:null,&quot;giftType&quot;:&quot;non_money&quot;,&quot;availableShares&quot;:1,&quot;sharesGivenAway&quot;:0,&quot;pricePerShare&quot;:100,&quot;giftedCount&quot;:0,&quot;hideSharesGivenAway&quot;:false,&quot;maxAmount&quot;:null,&quot;giftedAmount&quot;:null},{&quot;id&quot;:15270,&quot;headline&quot;:&quot;Brunch im Restaurant Adlisberg&quot;,&quot;info&quot;:null,&quot;giftType&quot;:&quot;non_money&quot;,&quot;availableShares&quot;:1,&quot;sharesGivenAway&quot;:0,&quot;pricePerShare&quot;:100,&quot;giftedCount&quot;:0,&quot;hideSharesGivenAway&quot;:false,&quot;maxAmount&quot;:null,&quot;giftedAmount&quot;:null},{&quot;id&quot;:15271,&quot;headline&quot;:&quot;Brunch in Babu&#039;s Bakery&quot;,&quot;info&quot;:null,&quot;giftType&quot;:&quot;non_money&quot;,&quot;availableShares&quot;:1,&quot;sharesGivenAway&quot;:0,&quot;pricePerShare&quot;:100,&quot;giftedCount&quot;:0,&quot;hideSharesGivenAway&quot;:false,&quot;maxAmount&quot;:null,&quot;giftedAmount&quot;:null},{&quot;id&quot;:15272,&quot;headline&quot;:&quot;Znacht im Restaurant Hertenstein&quot;,&quot;info&quot;:&quot;Hertenstein Panorama Restaurant&lt;br \/&gt;\r\nHertensteinstrasse 80&lt;br \/&gt;\r\n5408 Ennetbaden&quot;,&quot;giftType&quot;:&quot;non_money&quot;,&quot;availableShares&quot;:1,&quot;sharesGivenAway&quot;:0,&quot;pricePerShare&quot;:150,&quot;giftedCount&quot;:0,&quot;hideSharesGivenAway&quot;:false,&quot;maxAmount&quot;:null,&quot;giftedAmount&quot;:null},{&quot;id&quot;:15273,&quot;headline&quot;:&quot;Hamam-Besuch&quot;,&quot;info&quot;:null,&quot;giftType&quot;:&quot;non_money&quot;,&quot;availableShares&quot;:1,&quot;sharesGivenAway&quot;:0,&quot;pricePerShare&quot;:50,&quot;giftedCount&quot;:0,&quot;hideSharesGivenAway&quot;:false,&quot;maxAmount&quot;:null,&quot;giftedAmount&quot;:null},{&quot;id&quot;:15069,&quot;headline&quot;:&quot;Beitrag an die Flitterwochen&quot;,&quot;info&quot;:null,&quot;giftType&quot;:&quot;money&quot;,&quot;availableShares&quot;:null,&quot;sharesGivenAway&quot;:null,&quot;pricePerShare&quot;:null,&quot;giftedCount&quot;:0,&quot;hideSharesGivenAway&quot;:false,&quot;maxAmount&quot;:null,&quot;giftedAmount&quot;:null}]"
+                                :payment-methods="[{&quot;text&quot;:&quot;Konto: IBAN-Nr. xx (Inhaber NAME)&lt;br \/&gt;\r\n&lt;br \/&gt;\r\nTwint: TEL NR &quot;,&quot;type&quot;:&quot;Twint oder \u00dcberweisung&quot;}]"
+                                submission-url="target URL"
+                                currency-symbol="CHF"
+                                modal-header="Wünsche"
+                                :translations="{&quot;general.optional&quot;:&quot;optional&quot;,&quot;section.gift_table.modal.subheading&quot;:&quot;Jetzt das Brautpaar beschenken&quot;,&quot;section.gift_table.modal.table.wish&quot;:&quot;Wunsch&quot;,&quot;section.gift_table.modal.table.price&quot;:&quot;Betrag&quot;,&quot;section.gift_table.modal.table.total&quot;:&quot;Gesamt&quot;,&quot;section.gift_table.modal.form.name_label&quot;:&quot;Dein Name&quot;,&quot;section.gift_table.modal.form.email_label&quot;:&quot;Deine E-Mail-Adresse&quot;,&quot;section.gift_table.modal.form.message_label&quot;:&quot;Deine Gru\u00dfnachricht&quot;,&quot;section.gift_table.modal.form.submit_button&quot;:&quot;Geschenke jetzt vormerken&quot;,&quot;section.gift_table.modal.submit.header&quot;:&quot;Vielen Dank!&quot;,&quot;section.gift_table.modal.submit.subheading&quot;:&quot;Die Geschenke wurden f\u00fcr dich reserviert.&quot;,&quot;section.gift_table.modal.submit.close_button&quot;:&quot;Dieses Fenster schlie\u00dfen&quot;,&quot;section.gift_table.modal.submit.description&quot;:&quot;Bitte folge nun den Anweisungen, um euer Geschenk zu \u00fcbergeben.&quot;,&quot;section.gift_table.defaults.modal_open_button&quot;:&quot;Jetzt das Brautpaar beschenken&quot;,&quot;section.gift_table.defaults.status.wished&quot;:&quot;gew\u00fcnscht&quot;,&quot;section.gift_table.defaults.status.given&quot;:&quot;verschenkt&quot;,&quot;section.gift_table.defaults.choose_default&quot;:&quot;Bitte w\u00e4hlen&quot;,&quot;section.gift_table.defaults.for_example&quot;:&quot;z.B. 25&quot;,&quot;section.gift_table.defaults.per_share&quot;:&quot;pro Anteil&quot;,&quot;section.gift_table.modal.payment_methods.available&quot;:&quot;Verf\u00fcgbare Bezahlmethoden&quot;,&quot;general.accept_privacy_policy&quot;:&quot;Hiermit akzeptiere ich die &lt;a href=\&quot;{privacy_policy_url}\&quot;&gt;Datenschutzbestimmungen&lt;\/a&gt;.&quot;,&quot;general.error.not_logged_in&quot;:&quot;Du bist nicht (mehr) eingeloggt. Bitte lade die Seite neu, um dich erneut einzuloggen.&quot;,&quot;general.error.error_occurred_try_again_later&quot;:&quot;Es ist leider ein Fehler aufgetreten. Bitte versuche es sp\u00e4ter noch einmal.&quot;}"></gift-table>
+                -->
+    </div>
+</section>
         </div>
     </section>
-    
-    
-    
-    </html>
 
+<section class="section contact" id="#contact">
+    <div class="container">
+        <h2>Kontakt</h2>
+        <br>
+        <li class="organizer">
+            <p class="name">Stefan Götz</p>
+            <p class="function">Trauzeuge</p>
+            <p class="contact">
+                <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:email-addy">email-addy</a><br />
+                <i class="fas fa-phone" aria-hidden="true"></i> TEL NR<br />
+            </p>
+        <li class="organizer">
+            <p class="name">Miriam Keller</p>
+            <p class="function">Trauzeugin</p>
+            <p class="contact">
+                <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:email-addy">email-addy</a><br />
+                <i class="fas fa-phone" aria-hidden="true"></i> TEL NR<br />
+            </p>
+        </li>
+        <li class="organizer">
+            <p class="name">Anja Ferner-Michel</p>
+            <p class="function">Tätschmeisterin</p>
+            <p class="contact">
+                <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:email-addy">taetschmeister2022@xx.ch</a><br />
+                <i class="fas fa-phone" aria-hidden="true"></i> TEL NR<br />
+            </p>
+            <p class="description">
+
+            </p>
+        </li>
+
+    </div>
+</section>
+
+<div class="headline-font-wrapper">
+    <h2>Kontakt</h2>
+</div>
+<p class="subheading">
+    Hast du noch eine Frage zum Fest? Schreib an <a href="mailto:email-addy">taetschmeister2022@xx.ch</a>
+    Vielen Dank für deine Nachricht!<br />
+</p>
+    </div>
+    </section>
+</html>
