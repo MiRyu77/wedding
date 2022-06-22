@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<meta charset="utf-8">
+<head>
+    <title>
+        Wir  haben geheiratet und möchten mit Euch feiern!
+    </title>
+</head>
+<body>
+    <h1>heading 1</h1>
+    <p>Paragraph 1</p>
+    
+        <nav>
+            <button formtarget="_blank">ceremony</button>
+            <button formtarget="_blank">pics</button>
+            <button formtarget="_blank">location</button>
+            <button formtarget="_blank">registry</button>
+            <button formtarget="_blank">contact</button>
+        </nav>
+        <section>
+
+        </section>
+    <font style="times new roman" font size="14" font color="000000">
+        # **Wir heiraten**
+        ## _Wir hoffen Euch alle am 09.09.22 zu sehen! Bis bald!_
+        ### 'https://miryu77.github.io/wedding/'
+    </font>
+    <!-- <body background="IMG_0708 compressed.JPG"> -->
+    <!-- </body>-->
+    html {
+    background: url(IMG_0708 compressed.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    <!-- <style>
+        <!--p {
+        <!--    background-image: url('IMG_0708 compressed.JPG');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+       <!-- }
+        body {background-color: beige}
+        h1 {color: black} <h1 style="font-size:10vw">Hello World</h1> so it is scalable
+        h2 {color: black}
+        p {color: black}
+        alternatively you can link to a style sheet: <link rel="stylesheet" href="styles.css"> if in same folder as current page
+               The following gives you 20% sizes left and right, with 60% center space:
+        .left, .right {
+              float: left;
+              width: 20%; /* The width is 20%, by default */
+            }
+
+            .main {
+              float: left;
+              width: 60%; /* The width is 60%, by default */
+            }
+
+            /* Use a media query to add a breakpoint at 800px: */
+            @media screen and (max-width: 800px) {
+              .left, .main, .right {
+                width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+              }
+            }
+    <!-- </style> -->
+</body>
+
+
+
+<header class="page-header" id="page-header">
+    <!-- <section class="page-image-header" id="page-image-header">
+            <div class="image-slider">
+                <div class="slider-image top-right desktop init" style="background-image: url('IMG_0708 compressed.JPG');"></div>
+                <div class="slider-image top-right mobile init" style="background-image: url('link to image2');"></div>
+                ![Image1](srouce)
+
+                <div class="slider-image top-right desktop mobile" style="background-image: url('IMG_0708 compressed.JPG');"></div>
+                <div class="slider-image center-center desktop mobile" style="background-image: url('image 2 link');"></div>
+                <div class="slider-image top-center desktop mobile" style="background-image: url('link to image 3');"></div>
+            </div>
+            <div class="title-wrapper align-center text-shadow">
+                <div class="title container">
+                    <div class="headline-font-wrapper">
+                        <h1>Wir  haben geheiratet und möchten mit Euch feiern!</h1>
+                    </div>
+                    <div class="headline-font-wrapper">
+                        <h2>Wir hoffen Euch alle am 09.09.22 zu sehen! Bis bald! </h2>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </header>
+
+
+    <section class="invitation">
+        <div class="container">
+            <div class="times new roman">
+                <p>
+                    <b>Liebe Gäste</b><br>
+                    <br>
+                    <ins>
+                        Wir freuen uns schon riesig, unser Hochzeitsfest mit Euch allen am <strong>09. September 2022</strong> zu begehen.<br>
+                        <br>
+                        Dresscode: Festlich wie Ihr euch wohl fühlt. <br>
+                        <br>
+                        Falls ihr einen Programmpunkt plant bzw. etwas beitragen mögt, lasst dies doch bitte unsere Tätschmeisterin wissen.<br>
+                        Für Fragen könnt ihr euch gerne bei unseren Trauzeugen melden.<br>
+                        <br>
+                    </ins>
+                    Herzliche Grüsse,<br>
+                    <i>Regina und Michael</i>
+                </p>
+            </div>
+        </div>
+    </section>
+</html>
