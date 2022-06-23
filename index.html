@@ -4,11 +4,27 @@
 <meta charset="utf-8">
 <head>
     <title>
-        Wir  haben geheiratet und möchten mit Euch feiern!
+       <align="center"> Wir  haben geheiratet und möchten mit Euch feiern!
     </title>
 </head>
 
-<header class="page-header" id="page-header">
+    <a href="#contactUs"> Contact Us </a>
+      <br/></br>
+      <div>
+        <h2>Home section</h2></h>
+      </div>
+      <div>
+        <h2>About Us section</h2>
+      </div>
+  
+      <div id = "contactUs">
+        <h2>Contact Us section </h2>
+      </div>
+      <div>
+        <h2>Team Section</h2>
+      </div>
+
+<!-- <header class="page-header" id="page-header">
     <section class="page-image-header" id="page-image-header">
             <div class="image-slider">
                 <div class="slider-image top-right desktop init" style="background-image: url('IMG_0708 compressed.JPG');"></div>
@@ -30,51 +46,53 @@
                 </div>
             </div>
         </section>
-</header>
+</header> -->
 
 <body>
-    <h1>heading 1</h1>
-    <p>Paragraph 1</p>
-
+     <h1>Wir  haben geheiratet und möchten mit Euch feiern! <br>
+     Wir hoffen Euch alle am 09.09.22 zu sehen! Bis bald! </h1>
+    
     <nav>
     <section>
-        <a class="navigation-link " href="#invitation">Einladung</a>
+        <a href="#invitation">Einladung</a>
+        <a href="#ceremony">Fest</a>
+        <a href="#location">Location</a>
+        <a href="#pics">Fotos</a>
+        <a href="#registry">Geschenke</a>
+        <a href="#contact">Kontakt</a>
+
+        <!-- <a class="navigation-link " href="#invitation">Einladung</a>
         <a class="navigation-link " href="#ceremony">Fest</a>
         <a class="navigation-link " href="#location">Location</a>
         <a class="navigation-link " href="#pics">Fotos</a>
         <a class="navigation-link " href="#registry">Geschenke</a>
         <a class="navigation-link " href="#contact">Kontakt</a>
+-->
     </section>
     </nav>
     <font style="times new roman" font size="14" font color="000000">
-        Insert Text here.
-    </font>
 
     <style>
+        div{
+       width :100%;
+       height:400px;
+       border : 1px solid black;
+      }
         <body > {
             background-image: url("IMG_0708 compressed.JPG");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
-        }
-
-        {
             background-color: beige
         }
 
-        h1 {
-            color: black;
-            font-style: "font-size:10vw"
+        h1 {            color: black;             font-style: "font-size:10vw"
         }
 
-        h2 {
-            color: black;
-            font-style: "font-size:5vw"
+        h2 {            color: black;            font-style: "font-size:5vw"
         }
 
-        p {
-            color: black;
-            font-style: "font-size:5vw"
+        p {            color: black;             font-style: "font-size:5vw"
         }
 
         <!-- alternatively you can link to a style sheet: <link rel="stylesheet" href="styles.css" > if in same folder as current page
@@ -99,6 +117,7 @@
     </style>
 </body>
 
+    <div id = "invitation">
 <section class="invitation">
     <div class="container">
         <div class="times new roman">
@@ -120,6 +139,7 @@
     </div>
 </section>
 
+    <div id = "ceremony">
 <section class="section ceremony" id="#ceremony">
     <div class="container">
         <h2>Fest Ablauf</h2>
@@ -133,6 +153,7 @@
     </div>
 </section>
 
+    <div id = "location">
 <section class="section location" id="#location">
     <div class="container">
         <h2>Location</h2>
@@ -190,6 +211,7 @@
     </div>
 </section>
 
+<div id = "pics">
 <section class="section pics" id="#pics" target="_blank">
     <div class="container">
         <h2>Fotos</h2>
@@ -197,8 +219,10 @@
         Schickt eure Bilder oder Links zu euren gehosteten Bildern doch bitte an unsere Tätschmeisterin. <br>
         Wir werden diese sammeln um ein Ende einen einzelnen Link zu den Bilder zur Verfügung zu stellen. <br>
     </div>
+    </div>
 </section>
 
+<div id = "registry">
 <section class="section registry" id="#registry" target="_blank">
     <div class="container">
         <h2>Geschenke</h2>
@@ -221,10 +245,9 @@
                 -->
     </div>
 </section>
-        </div>
-    </section>
 
-<section class="section contact" id="#contact">
+<div id = "contact">
+// <section class="section contact" id="#contact">
     <div class="container">
         <h2>Kontakt</h2>
         <br>
@@ -254,7 +277,7 @@
 
             </p>
         </li>
-
+</div>
     </div>
 </section>
 
