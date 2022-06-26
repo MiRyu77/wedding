@@ -13,28 +13,24 @@
       height: 100%;
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
+      align: center;
 }
-
+        h1 {  color: black; font-style: "font-size:8vw"        }
+        h2 {  color: black; font-style: "font-size:6vw"        }
+        h3 { color: black; font-style: "font-size:5vw" font-weight: bold       }
+        p { color: black; font-style: "font-size:5vw"        }
+        body { background-color: #f6d7b0; } 
+    
 .header-image {
-  background-image: url("header_img");
+  background-image: url("header_img.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-
-        h1 {  color: black; font-style: "font-size:8vw"        }
-
-        h2 {  color: black; font-style: "font-size:6vw"        }
-        
-        h3 { color: black; font-style: "font-size:5vw" font-weight: bold       }
-        
-        p { color: black; font-style: "font-size:5vw"        }
-        
-        body { background-color: #e1bf92; } 
 </style>
-
+    <!--
     <header class="page-header" id="page-header">
     <section class="page-image-header" id="page-image-header">
             <div class="image-slider">
@@ -44,6 +40,7 @@
                 <div class="slider-image top-right desktop mobile" style="background-image: url('IMG_0708 compressed.JPG');"></div>
                 <div class="slider-image center-center desktop mobile" style="background-image: url('IMG_0675_compressed.JPG');"></div>
             </div>
+        -->
 </header>
 
 <body>
@@ -54,12 +51,14 @@
      &nbsp;&nbsp;&nbsp; Wir hoffen Euch alle am 09.09.22 zu sehen! Bis bald!</h2>
     </p>
     <nav>
+        <align="center">
     <h1><a href="#invitation">Einladung</a>&nbsp;
         <a href="#location">Location</a>&nbsp;
         <a href="#ceremony">Fest</a>&nbsp;
         <a href="#pics">Fotos</a>&nbsp;
         <a href="#registry">Geschenke</a>&nbsp;
         <a href="#contact">Kontakt</a></h1>
+        </align>
     </nav>
         
 <section id="invitation" id="#invitation">
@@ -106,11 +105,11 @@
                      </p>
 
             <p class="url">
-                <strong>Adresse:</strong><br>
-                <a href="https://www.google.ch/maps/place/Trotte+Villigen/@47.5279865,8.2137084,15z/data=!4m2!3m1!1s0x0:0xa717f775981df191?sa=X&ved=2ahUKEwjQ0YGC4rv4AhWHM-wKHfSmCoQQ_BJ6BAhQEAU" target="_blank">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10776.180083028685!2d8.2137084!3d47.5279865!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa717f775981df191!2sTrotte%20Villigen!5e0!3m2!1sde!2sch!4v1656244033453!5m2!1sde!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </p>
-                <br>Winkel 12, 5234 Villigen
+                <strong>Adresse:</strong>
+                <a href="https://www.google.ch/maps/place/Trotte+Villigen/@47.5279865,8.2137084,15z/data=!4m2!3m1!1s0x0:0xa717f775981df191?sa=X&ved=2ahUKEwjQ0YGC4rv4AhWHM-wKHfSmCoQQ_BJ6BAhQEAU" target="_blank">
+                Winkel 12, 5234 Villigen
+                </p>
                 </a>
             <p class="url">
                 <strong>Website:</strong>
@@ -125,6 +124,19 @@
   <div>3</div>
 </div>
     
+    <!-- 
+    <a class="location-map" target="_blank" href="https://maps.google.com/?q=Waidbadstrasse%2045%2C%208037%20Z%C3%BCrich">
+    <svg width="200" viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <pattern id="img-location-1c2c5782-2f2d-422e-bccf-ca55f4dab112" height="100%" width="100%" patternUnits="userSpaceOnUse">
+                <image xlink:href="/image-cache?url=https%253A%2F%2Fmaps.googleapis.com%2Fmaps%2Fapi%2Fstaticmap%253Fcenter%253D47.4000281%25252C8.5156229%2526zoom%253D13%2526size%253D200x200%2526maptype%253Droadmap%2526markers%253Dcolor%25253Ared%25257C47.4000281%25252C8.5156229%2526key%253DAIzaSyC1JEm1lazyJmyCfePKh60kbCfo_JQYhTo%2526signature%253D3SwJGheTIXyy1Irze77ltZbqes4%253D" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+            </pattern>
+        </defs>
+        <polygon fill="url(#img-location-1c2c5782-2f2d-422e-bccf-ca55f4dab112)" points="50 1 95 25 95 75 50 99 5 75 5 25"/>
+        <polygon class="overlay" points="50 1 95 25 95 75 50 99 5 75 5 25" fill-opacity="0 "/>
+    </svg>
+     -->   
+        
          <div id = "lodging">
              <h2>Unterkünfte</h2>
               <p class="url">
@@ -208,7 +220,7 @@
         <h2>Kontakt</h2>
         <br>
         <div>
-            <img src="stefan.jpg" width="400" height="500">
+            <img src="stefan.jpg" width="200" height="300">
             <strong>Stefan Götz</strong><br>
             <i>Trauzeuge</i><br>
               <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:stefan_goetz@hotmail.com">Email Trauzeuge</a><br />
@@ -216,7 +228,7 @@
             </p>
         </div>
         <div>
-            <img src="miriam.jpg" width="400" height="500">
+            <img src="miriam.jpg" width="200" height="300">
             <strong>Mirjam Keller</strong><br>
             <i>Trauzeugin</i><br>
                 <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:mirjam_keller93@bluewin.ch">Email Trauzeugin</a><br />
@@ -224,7 +236,7 @@
             </p>
         </div>
         <div>    
-            <img src="anja.jpg" width="400" height="500">
+            <img src="anja.jpg" width="200" height="300">
             <strong>Anja Ferner-Michel</strong><br>
             <i>Tätschmeisterin</i><br>
             <i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:taetschmeister9922@gmail.com">taetschmeister9922@gmail.com</a><br />
