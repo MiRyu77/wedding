@@ -34,7 +34,7 @@
         background-color: #e1bf92; text-align: center; }
     
 .header-image {
-  background-image: img('header_img.jpg');
+  background-image: url("header_img.jpg");
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 }
     
 .footer-image {
-      background-image: img("IMG_0675_compressed.JPG");
+      background-image: url("IMG_0675_compressed.JPG");
       height: 80%;
       background-position: center;
       background-repeat: no-repeat;
@@ -51,7 +51,8 @@
       position: relative;
 }
 </style>
-    <header class="image-header" id="image-header">
+ <!--   
+ <header class="image-header" id="image-header">
     <section class="image-header" id="image-header">
             <div class="header-image">
                 <div class="slider-image top-center desktop init" style="background-image: url('header_img.jpg');"></div>
@@ -59,23 +60,26 @@
                 <div class="slider-image top-right desktop mobile" style="background-image: url('header_img.jpg.JPG');"></div>
                 <div class="slider-image center-center desktop mobile" style="background-image: url('header_img.jpg'.JPG');"></div>
             </div>
-    </header>
+    </header> -->
+ 
  <body>
-       
+     <div class="header-image">
+     </div>
+     
      <h2>Wir  haben geheiratet und möchten mit Euch feiern! <br>
      &nbsp;&nbsp;&nbsp; Wir hoffen Euch alle am 09.09.22 zu sehen! Bis bald!</h2>
-    </p>
+
     <nav align="center">
-    <h1><a href="#invitation">Einladung</a>&nbsp;
+    <h1><a href="#invitation"><font color="#000000">Einladung</a>&nbsp;
         <a href="#ceremony">Fest</a>&nbsp;
         <a href="#location">Location</a>&nbsp;
         <a href="#pics">Fotos</a>&nbsp;
         <a href="#registry">Geschenke</a>&nbsp;
-        <a href="#contact">Kontakt</a></h1>
+        <a href="#contact">Kontakt</font></a></h1>
     </nav>
         
 <section id="invitation" id="#invitation">
-       <div id = "invitation">
+       <div id="invitation">
            <div class="invitation">
              <p>
                 <br>
@@ -97,7 +101,7 @@
 </section>
 
 <section id="section ceremony" id="#ceremony">
-    <div id = "ceremony">
+    <div id="ceremony">
         <div class="ceremony">
         <h2>Fest Ablauf</h2>
         <h3>Freitag der 09. September 2022</h3>
@@ -112,7 +116,8 @@
             <br>
         <br>
             23:00 - Party!
-            <br></p>
+            <br><br>
+            </p>
     </div>
 </section>
 
