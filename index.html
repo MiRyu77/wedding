@@ -10,15 +10,15 @@
        
 <style>
         html { height: 100%; margin: 0; font-family: Arial, Helvetica, sans-serif; align: center; }
-        h1 {  color: black; font-style: "font-size:8vw"        }
-        h2 {  color: black; font-style: "font-size:6vw"        }
-        h3 { color: black; font-style: "font-size:5vw" font-weight: bold       }
-        p { color: black; font-style: "font-size:5vw"        }
-        body { background-color: #f6d7b0; } 
-        table, th, td { border: 0px solid black; width: 50%; align: center} 
+        h1 {  color: black; font-style: "font-size:8vw";        }
+        h2 {  color: black; font-style: "font-size:6vw";        }
+        h3 { color: black; font-style: "font-size:5vw"; font-weight: bold;       }
+        p { color: black; font-style: "font-size:5vw";      }
+        body { background-color: #f6d7b0; color: #f6d7b0; } 
+        table, th, td { border: 0px solid black; width: 50%; align: center; } 
         img {'stefan.jpg'; 'miriam.jpg'; height: 20%; width: 20%; }
         img {'anja.jpg'; height: 80%; width: 80%; }
-        footer { background-color: black;  }
+        footer { background-color: black;  align: center; }
  
     .invitation {  
         background-color: #f6d7b0; text-align: center; }
@@ -34,7 +34,7 @@
         background-color: #e1bf92; text-align: center; }
     
 .header-image {
-  background-image: src('header_img.jpg');
+  background-image: img('header_img.jpg');
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 }
     
 .footer-image {
-      background-image: src("IMG_0675_compressed.JPG");
+      background-image: img("IMG_0675_compressed.JPG");
       height: 80%;
       background-position: center;
       background-repeat: no-repeat;
@@ -51,21 +51,17 @@
       position: relative;
 }
 </style>
-    <header class="page-header" id="page-header">
-    <section class="page-image-header" id="page-image-header">
-            <div class="image-slider">
+    <header class="image-header" id="image-header">
+    <section class="image-header" id="image-header">
+            <div class="header-image">
                 <div class="slider-image top-center desktop init" style="background-image: url('header_img.jpg');"></div>
-                <div class="slider-image top-center mobile init" style="background-image: url('IMG_0708 compressed.JPG');"></div>
-
-                <div class="slider-image top-right desktop mobile" style="background-image: url('IMG_0708 compressed.JPG');"></div>
-                <div class="slider-image center-center desktop mobile" style="background-image: url('IMG_0675_compressed.JPG');"></div>
+                <div class="slider-image top-center mobile init" style="background-image: url('header_img.jpg');"></div>
+                <div class="slider-image top-right desktop mobile" style="background-image: url('header_img.jpg.JPG');"></div>
+                <div class="slider-image center-center desktop mobile" style="background-image: url('header_img.jpg'.JPG');"></div>
             </div>
-    <div class="header-image"> 
-    </div>
     </header>
  <body>
-    
-    
+       
      <h2>Wir  haben geheiratet und möchten mit Euch feiern! <br>
      &nbsp;&nbsp;&nbsp; Wir hoffen Euch alle am 09.09.22 zu sehen! Bis bald!</h2>
     </p>
