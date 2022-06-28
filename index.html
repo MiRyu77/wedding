@@ -194,13 +194,20 @@
             An die Unentschlossenen - wir auch über "Barspenden" froh, welche an unsere Flitterwochen gehen :)<br />
           
           <form action="registry.html" method="GET">
-              <label>Name</label>
-              <input>
-              <label>Ich bringe/ Wir bringen...</label>
-              <input>
-              <br><label>Anzahl / genüg für...</label>
-              <input>
-              <button>Abschicken</button>
+              <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Name" required>
+              <br></div>
+              <div>
+                 <label for="detail">Ich bringe/ Wir bringen...</label>
+                 <input type="text" name="detail" id="detail" placeholder="Euer Beitrag" required>
+              <br></div>
+              <div>
+                  <br><label for="Anzahl">Anzahl / genug für...</label>
+                  <input type="number" name="Anzahl" id="Anzahl" placeholder="genug für..." minumum="1" required>
+              <br></div>
+              <button type="reset">Zurück</button><br>
+              <button type="submit">Abschicken</button>
           </form>
         
     </div>
