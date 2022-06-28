@@ -9,7 +9,17 @@
 </head>
 
 <body>
-            
+  
+    <div id="registry"></div>
+    <a href="/">Zurück</a>
+    <script>
+        const registryList = document.getElementbyId('registry')
+        new URLSearchParams(window.location.search).forEach((value, name) => {
+        registryList.append('${name}:${value}')
+        registryList.append(document.createElement('br'))    
+        })
+    </script>
+    
   <gift list> <li>
               </li>
 <section class="section gift-table-section">
